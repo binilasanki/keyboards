@@ -1,4 +1,4 @@
-# NLCI Tamil WinScript Keyboard
+# NLCI Betta WinScript Keyboard
 
 Copyright (c) 2002-2019 NLCI, Bangalore
 

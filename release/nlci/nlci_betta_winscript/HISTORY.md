@@ -1,4 +1,4 @@
-#NLCI Tamil WinScript Keyboard Change History
+#NLCI Betta WinScript Keyboard Change History
 
 ## 2.0 (2019)
 * A Complete rewrite of the keyboard by Binila Sanki (SG, NLCI)
