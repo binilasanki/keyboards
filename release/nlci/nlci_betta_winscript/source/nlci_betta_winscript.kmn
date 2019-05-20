@@ -70,7 +70,7 @@ c Adjust the behavior of S
 c Adjust the behavior of F
  + 'F' > U+1133C
  + 'f' > nul
- '`' dk(bt) + 'F' > 'F'        
+ '`' dk(bt) + 'F' > 'F' 
  '`' dk(bt) + 'f' > 'f'
 c Adjust the behavior of u
 'உ' + 'u' > 'ஊ'    
