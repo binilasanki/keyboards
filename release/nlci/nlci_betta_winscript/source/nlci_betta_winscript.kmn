@@ -159,7 +159,11 @@ c Adjust the behavior of TA
  'த𑌼' + 'V' > U+0BC6 'த𑌼' U+0BD7 
  'த𑌼' + 'H' > 'த𑌼ஃ'    
  'ெத𑌼' + 'f' > 'ெ𑌼த𑌼' 
- 'ேத𑌼' + 'f' > 'ே𑌼த𑌼'
+ 'ேத𑌼' + 'f' > 'ே𑌼த𑌼'    
+ 
+ c circle virama for vowel e and E
+  'எ' + 'f' > 'எ𑌼'
+  'ஏ' + 'f' > 'ஏ𑌼'
  
 c circle virama
 any(consonants) 'ெ' + 'f' > 'ெ' U+1133C index(consonants,1) 
