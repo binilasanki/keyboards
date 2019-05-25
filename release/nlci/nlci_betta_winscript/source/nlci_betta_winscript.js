@@ -1166,14 +1166,14 @@ function Keyboard_nlci_betta_winscript()
     else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(2,t,[{t:'a',a:this.s_consonants},'ெ'])) {   // Line 169
       r=m=1;
       k.KDC(2,t);
-      k.KO(-1,t,"ெ𑌼");
       k.KIO(-1,this.s_consonants,1,t);
+      k.KO(-1,t,"ெ𑌼");
     }
     else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(2,t,[{t:'a',a:this.s_consonants},'ே'])) {   // Line 170
       r=m=1;
       k.KDC(2,t);
-      k.KO(-1,t,"ே𑌼");
       k.KIO(-1,this.s_consonants,1,t);
+      k.KO(-1,t,"ே𑌼");
     }
     else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(1,t,['எ'])) {   // Line 165
       r=m=1;

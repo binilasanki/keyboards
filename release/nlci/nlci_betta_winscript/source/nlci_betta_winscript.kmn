@@ -166,8 +166,8 @@ c Adjust the behavior of TA
   'ஏ' + 'f' > 'ஏ𑌼'
  
 c circle virama
-any(consonants) 'ெ' + 'f' > 'ெ' U+1133C index(consonants,1) 
-any(consonants)'ே' + 'f'> 'ே' U+1133C index(consonants,1)
+any(consonants) 'ெ' + 'f' >  index(consonants,1) 'ெ'  U+1133C
+any(consonants) 'ே' + 'f' >  index(consonants,1) 'ே'  U+1133C
 
 c Adjust the behavior of X
 any(consonants) + 'X' > context '்' U+200C
