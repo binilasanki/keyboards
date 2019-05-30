@@ -1148,32 +1148,32 @@ function Keyboard_nlci_betta_winscript()
       k.KDC(3,t);
       k.KO(-1,t,"க𑌼ே𑌼");
     }
-    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(3,t,['ெ','ட','𑌼'])) {   // Line 126
+    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(3,t,['ட','𑌼','ெ'])) {   // Line 126
       r=m=1;
       k.KDC(3,t);
       k.KO(-1,t,"ட𑌼ெ𑌼");
     }
-    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(3,t,['ே','ட','𑌼'])) {   // Line 127
+    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(3,t,['ட','𑌼','ே'])) {   // Line 127
       r=m=1;
       k.KDC(3,t);
       k.KO(-1,t,"ட𑌼ே𑌼");
     }
-    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(3,t,['ெ','ப','𑌼'])) {   // Line 146
+    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(3,t,['ப','𑌼','ெ'])) {   // Line 146
       r=m=1;
       k.KDC(3,t);
       k.KO(-1,t,"ப𑌼ெ𑌼");
     }
-    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(3,t,['ே','ப','𑌼'])) {   // Line 147
+    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(3,t,['ப','𑌼','ே'])) {   // Line 147
       r=m=1;
       k.KDC(3,t);
       k.KO(-1,t,"ப𑌼ே𑌼");
     }
-    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(3,t,['ெ','த','𑌼'])) {   // Line 165
+    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(3,t,['த','𑌼','ெ'])) {   // Line 165
       r=m=1;
       k.KDC(3,t);
       k.KO(-1,t,"த𑌼ெ𑌼");
     }
-    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(3,t,['ே','த','𑌼'])) {   // Line 166
+    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_F /* 0x46 */)&&k.KFCM(3,t,['த','𑌼','ே'])) {   // Line 166
       r=m=1;
       k.KDC(3,t);
       k.KO(-1,t,"த𑌼ே𑌼");
