@@ -1,6 +1,6 @@
 # NLCI Gurumukhi WinScript Keyboard
 
-Copyright (C) 2002-2018 NLCI, Banglore
+Copyright (c) 2002-2019 NLCI, Bangalore
 
 Version 2.0
 

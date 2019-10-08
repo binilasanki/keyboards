@@ -1,6 +1,10 @@
-﻿store(&NAME) 'NLCI Gurumukhi WinScript'
-store(&COPYRIGHT) '© NLCI 2000-2018'
-store(&KEYBOARDVERSION) '2.0.0'
+﻿store(&VERSION) '10.0'
+store(&NAME) 'Gurumukhi WinScript Keyboard [NLCI]'
+store(&COPYRIGHT) '© 2000-2019 NLCI, Bangalore'
+store(&KEYBOARDVERSION) '2.0'
+store(&TARGETS) 'any'
+store(&BITMAP) 'nlci_gurumukhi_winscript.ico'
+store(&VISUALKEYBOARD) 'nlci_gurumukhi_winscript.kvks'
 begin Unicode > use(main)
 
 group(main) using keys
@@ -52,7 +56,8 @@ c Adjust the behavior of r
  'ਰ' + 'r' > 'ੜ'       
  
 c Adjust the behavior of S
-+ 'S' > 'ੰ'  
++ 'S' > 'ੰ'    
+'`' dk(bt) + 'S' > 'S'
 
 c Adjust the behavior of u
 'ਉ' + 'u' > 'ਊ'    
@@ -62,28 +67,38 @@ c Adjust the behavior of s
 'ਸ' + 's'> 'ਸ਼'  
 
 c Adjust the behavior of f
-+ 'f' > '਼'      
++ 'f' > '਼'    
+'`' dk(bt) + 'f' > 'f'  
 
 c Adjust the behavior of E
- + 'E' > nul     
+ + 'E' > nul    
+ '`' dk(bt) + 'E' > 'E' 
  
 c Adjust the behavior of R
  + 'R' > nul   
+ '`' dk(bt) + 'R' > 'R'
  
 c Adjust the behavior of O
- + 'O' > nul      
+ + 'O' > nul  
+ '`' dk(bt) + 'O' > 'O'    
  
  c Adjust the behavior of F
- + 'F' > nul
+ + 'F' > nul  
+ '`' dk(bt) + 'F' > 'F'
  
   c Adjust the behavior of Z
- + 'Z' > nul
-
+ + 'Z' > nul   
+ '`' dk(bt) +'Z' >'Z'
+ 
+ c Adjust the behavior of x & X
+ '`' dk(bt) + 'x' > 'x'
+ '`' dk(bt) + 'X' > 'X'  
+ 
 c Adjust the behavior of X
 any(consonants) + 'X' > context '੍' U+200C
 any(consonants) '੍' + 'X' > context U+200C
 U+200C + 'X' > context beep
-store(WordFinalPunct) ' ",;:.>!]})' 
+store(WordFinalPunct) ' ",;:.>!]}-/;\~@#$%^&*(_+|:<?)' 
 U+200C + any(WordFinalPunct) > index(WordFinalPunct, 2)
 
 c = is a modifier key that alters the default behavior of some keystrokes

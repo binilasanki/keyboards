@@ -7,49 +7,59 @@
   </Options>
   <Files>
     <File>
-      <ID>id_fd6a01f7cfc7411570f302be90aae79e</ID>
-      <Filename>sil_Malayalam_phonetic.kmn</Filename>
-      <Filepath>source\sil_Malayalam_phonetic.kmn</Filepath>
+      <ID>id_976750a160ca86e27b21fdd3b8c1b5b0</ID>
+      <Filename>nlci_gurumukhi_winscript.kmn</Filename>
+      <Filepath>source\nlci_gurumukhi_winscript.kmn</Filepath>
+      <FileVersion>2.0</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
-        <Name>Malayalam Phonetic (SIL)</Name>
-        <Copyright>2002-2018 SIL International</Copyright>
+        <Name>Gurumukhi WinScript Keyboard [NLCI]</Name>
+        <Copyright>© 2000-2019 NLCI, Bangalore</Copyright>
       </Details>
     </File>
     <File>
-      <ID>id_5bec14df92705b4d540f8b8911272859</ID>
-      <Filename>sil_Malayalam_phonetic.kps</Filename>
-      <Filepath>source\sil_Malayalam_phonetic.kps</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kps</FileType>
-      <Details>
-        <Name>Malayalam Phonetic (SIL)</Name>
-        <Copyright>2002-2018 SIL International</Copyright>
-      </Details>
-    </File>
-    <File>
-      <ID>id_1d926ff328f35e9eec91d2a833ad7efe</ID>
-      <Filename>sil_Malayalam_phonetic.ico</Filename>
-      <Filepath>source\sil_Malayalam_phonetic.ico</Filepath>
+      <ID>id_40f3e70fe02a0ca885fd5930fabc0f63</ID>
+      <Filename>nlci_gurumukhi_winscript.ico</Filename>
+      <Filepath>source\nlci_gurumukhi_winscript.ico</Filepath>
       <FileVersion></FileVersion>
       <FileType>.ico</FileType>
-      <ParentFileID>id_fd6a01f7cfc7411570f302be90aae79e</ParentFileID>
+      <ParentFileID>id_976750a160ca86e27b21fdd3b8c1b5b0</ParentFileID>
     </File>
     <File>
-      <ID>id_16b98657a8dec3cb12634ea240f58f38</ID>
-      <Filename>sil_Malayalam_phonetic.kvk</Filename>
-      <Filepath>source\..\build\sil_Malayalam_phonetic.kvk</Filepath>
+      <ID>id_1cbe799961384aa0651bf263da63f276</ID>
+      <Filename>nlci_gurumukhi_winscript.kps</Filename>
+      <Filepath>source\nlci_gurumukhi_winscript.kps</Filepath>
+      <FileVersion>2.0</FileVersion>
+      <FileType>.kps</FileType>
+      <Details>
+        <Name>Gurumukhi Winscript Keyboard [NLCI]</Name>
+        <Copyright>©  2000-2019  NLCI, Bangalore</Copyright>
+        <Version>2.0</Version>
+      </Details>
+    </File>
+    <File>
+      <ID>id_0d0997d8a6a41e3e5242c62070759869</ID>
+      <Filename>nlci_gurumukhi_winscript.js</Filename>
+      <Filepath>source\build\nlci_gurumukhi_winscript.js</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.js</FileType>
+      <ParentFileID>id_1cbe799961384aa0651bf263da63f276</ParentFileID>
+    </File>
+    <File>
+      <ID>id_0436da93932b84f6ae9f1f088e77cc12</ID>
+      <Filename>nlci_gurumukhi_winscript.kvk</Filename>
+      <Filepath>source\build\nlci_gurumukhi_winscript.kvk</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kvk</FileType>
-      <ParentFileID>id_5bec14df92705b4d540f8b8911272859</ParentFileID>
+      <ParentFileID>id_1cbe799961384aa0651bf263da63f276</ParentFileID>
     </File>
     <File>
-      <ID>id_3a1a08f08b95d862c2ab09d26393230d</ID>
-      <Filename>sil_Malayalam_phonetic.kmx</Filename>
-      <Filepath>source\..\build\sil_Malayalam_phonetic.kmx</Filepath>
+      <ID>id_cc1aee59eff8be1e0071cf91f694e778</ID>
+      <Filename>nlci_gurumukhi_winscript.kmx</Filename>
+      <Filepath>source\build\nlci_gurumukhi_winscript.kmx</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kmx</FileType>
-      <ParentFileID>id_5bec14df92705b4d540f8b8911272859</ParentFileID>
+      <ParentFileID>id_1cbe799961384aa0651bf263da63f276</ParentFileID>
     </File>
     <File>
       <ID>id_8da344c4cea6f467013357fe099006f5</ID>
@@ -57,39 +67,7 @@
       <Filepath>source\readme.htm</Filepath>
       <FileVersion></FileVersion>
       <FileType>.htm</FileType>
-      <ParentFileID>id_5bec14df92705b4d540f8b8911272859</ParentFileID>
-    </File>
-    <File>
-      <ID>id_d83bc7c48543cd8ce01fefb910d8f14c</ID>
-      <Filename>sil_Malayalam_phoneticU_.png</Filename>
-      <Filepath>source\welcome\sil_Malayalam_phoneticU_.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_5bec14df92705b4d540f8b8911272859</ParentFileID>
-    </File>
-    <File>
-      <ID>id_41045a214e41ca29548320b36baf2497</ID>
-      <Filename>sil_Malayalam_phoneticU_RA.png</Filename>
-      <Filepath>source\welcome\sil_Malayalam_phoneticU_RA.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_5bec14df92705b4d540f8b8911272859</ParentFileID>
-    </File>
-    <File>
-      <ID>id_6d3d690b35d3c5e6664c447432ba4a48</ID>
-      <Filename>sil_Malayalam_phoneticU_S.png</Filename>
-      <Filepath>source\welcome\sil_Malayalam_phoneticU_S.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_5bec14df92705b4d540f8b8911272859</ParentFileID>
-    </File>
-    <File>
-      <ID>id_de695cdec8e0f8c4e3edaddc0831ffa2</ID>
-      <Filename>sil_Malayalam_phoneticU_SRA.png</Filename>
-      <Filepath>source\welcome\sil_Malayalam_phoneticU_SRA.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_5bec14df92705b4d540f8b8911272859</ParentFileID>
+      <ParentFileID>id_1cbe799961384aa0651bf263da63f276</ParentFileID>
     </File>
     <File>
       <ID>id_724e5b4c63f10bc0abf7077f7c3172fc</ID>
@@ -97,7 +75,7 @@
       <Filepath>source\welcome\welcome.htm</Filepath>
       <FileVersion></FileVersion>
       <FileType>.htm</FileType>
-      <ParentFileID>id_5bec14df92705b4d540f8b8911272859</ParentFileID>
+      <ParentFileID>id_1cbe799961384aa0651bf263da63f276</ParentFileID>
     </File>
   </Files>
 </KeymanDeveloperProject>
